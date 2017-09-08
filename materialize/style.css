@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    background-color: #02bdba; 
+}
+
+body {
+    height: 100%;
+    background-image: url('http://cdn.wallpapersafari.com/51/74/PqbW3y.jpg');
+    background-repeat: repeat-y;
+    background-size: 27% auto;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  height: 50px;
+}
+
+img {
+   padding: 6px;
+   border:1px solid #021a40;
+   background-color:white;
+}
+
+
+
+
+      
+
+	
+
