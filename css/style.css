@@ -5,6 +5,18 @@
  *
  * Made By MaterializeCSS.com
  */
+body{
+  font-family: 'Quando', serif;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+  main {
+    flex: 1 0 auto;
+  }
 
 nav ul a,
 nav .brand-logo {
@@ -13,6 +25,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 18px;
 }
 
 .sidenav-trigger {
